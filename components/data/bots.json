@@ -1,0 +1,294 @@
+{
+    "items": {
+        "story": [
+            {
+                "id": 1,
+                "title": "Beginnings (1999 - 2006)",
+                "text": "FRC Team 303: Vulgen's Heroes was created in 1998 as a partnership between Bihler of America, the Midland school and Pingry Academy. After their first season in 1999, Pingry decided to not participate the following year, and Bridgewater-Raritan High School took their place. Throughout the next several years, this new partnership was incredibly successful. The BRHS and Midland students had the opportunity to work alongside real engineers to solve the fun challenge that FIRST created every year, and Bihler engineers enjoyed the challenge of mentoring students and assisting in the creation process, all  with tight deadlines. After their second season, the team also changed its name from Vulgen’s Heroes to Panther Robotics, after the mascot of BRHS. Throughout this time period, it was not uncommon for Team 303 to take home event banners from competitions.",
+                "imageUrl": "/img/beginnings.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Relocation (2007)",
+                "text": "After the successful first several seasons for the team, Bihler unfortunately came to the point where they could no longer allow their facilities to be used by the team. This was problematic to the team since their workspace, mentors, and funding all came from Bihler. The team went searching for a new sponsor to replace Bihler, but unfortunately, due to the search and other reasons, Midland decided to leave the team as well. Team 303 was now exclusively part of the Bridgewater-Raritan High School. As the 2007 season approached, things began to look up; while the team did not have one big sponsor to replace Bihler, many smaller donations were starting to fill the gap, but the team was still desperately in need of a build site. After looking at school classrooms, students’ garages, and other solutions, Pressure Tube Manufacturing (PTM), stepped in, and allowed Panther Robotics use of its facilities.",
+                "imageUrl": "/img/relocation.jpg"
+            },
+            {
+                "id": 3,
+                "title": "303 Renaissance (2008 - 2010)",
+                "text": "With new-found stability, Team 303 went through an era of massive growth and derenaissancevelopment. They continued working to give back to the community in new ways, such as raking leaves and shoveling snow for the elderly and creating an engineering program for fourth and fifth graders to attend after school. The team also started an off-season event called the Bridgewater-Raritan Battle Royale or BR2, which was hosted  yearly in late May and attended by roughly thirty teams. The team also started several green initiatives such as recycling metal scraps and cans, collecting old cell phones and electronics, and cleaning up the high school. These activities both benefited the team and the community. The growth of the team culminated with its successful 2010 season, in which it made waves in both the New Jersey and Connecticut Regionals by making it into semi-finals and quarter-finals respectively, and running a strategy booth to help every team maximize their scouting information.",
+                "imageUrl": "/img/chompy.png"
+            },
+            {
+                "id": 4,
+                "title": "A New Era (2011)",
+                "text": "At the end of 2011, Team 303 lost their workspace once more when, after an ownership change, PTM decided that they would no longer provide a space for the team. Fortunately, the team quickly found a temporary workspace at STS Tire & Auto Center that would give them a place to work during the build season. That temporary workspace turned into a strong partnership and a permanent home for the team. 2011 was a huge year for the team; with the wins of  both the New Jersey and Philadelphia Regionals and making it to eliminations at the World Championship. The summer that followed that season, the team formed the Student Leadership Council (SLC). The creation of the SLC was a huge milestone that marked a large transition of power from the mentors/advisors to the students.",
+                "imageUrl": "/img/relocation.jpg"
+            },
+            {
+                "id": 5,
+                "title": "Testing… (2012 - 2019)",
+                "text": "After deciding their team name and colors were not unique, Panther Robotics became The T.E.S.T. Team 303 with a unique teal color and vibrant test pattern logo, specifically SMPTE color bars, or Engineering Guideline EG 1-1990. T.E.S.T. stands for Technologists, Engineers, Students, and Teachers, the major groups that make up the team. The change was a massive success that lead to the team winning the Imagery award at their second competition of the season. 2013 was an even better season for the team.. Team 303 was one of the top teams in their region, qualified for the World Championship, then ended up being the captain of the alliance that went on to win the entire division. The team had another monumental year in 2014, not only winning the Chairman’s award for the first time ever at a district event, but they won it again at the regional championship, beating teams who have been winning it consistently for years. In 2019, a major revamp occurred in the T.E.S.T. Team, where in order to better reflect the needs of the team, the leadership system was modified and instead of the SLC, a new team structure was created featuring Project Managers, Project Supervisors, and Coordinators, with the intent to create better harmony between all team members and to create a more efficient chain of productivity. ",
+                "imageUrl": "/img/chompy.png"
+            },
+            {
+                "id": 6,
+                "title": "Rise Up (2020 - Present)",
+                "text": "In 2020, they took part in the Infinite Recharge Challenge and won the Engineering Inspiration Award as well as the Donald Bowers Award. Unfortunately the arrival of COVID made going to in-person competitions not possible. Team 303 instead focused on Virtual Collaboration to get the ball rolling in 2021. Testing they took part in the Infinite Recharge’s Innovation and Game Design Challenges. However when there was a glimpse of hope over the horizon for going back in-person, Hurricane Ida came in and flooded the warehouse where the team used to work. Due to the Warehouse having toxic chemicals in the soil surrounding it, Team 303 was forced to find a new place to continue their works. Losing STS was a hard hit to Team 303 as all their equipment and supplies where drowned by the flood. However, the warm memories kept the team members to push harder and find a way to be a part of the competition. With the help of the Bridgewater Raritan School District, Team 303 was able to relocate to an Administration building where they plan to build their robot for the 2022 FRC Rapid React Competition. ",
+                "imageUrl": "/img/chompy.png"
+            }
+        ],
+        "bots": [
+            {
+                "name": "Chompy",
+                "play": "6-20-0",
+                "imageUrl": "/img/chompy.png",
+                "year": "2024",
+                "awards": [
+                    "EI award"
+                ]
+            },
+            {
+                "name": "Janky",
+                "play": "14-20-0",
+                "imageUrl": "/robots/2022.png",
+                "year": "2022",
+                "awards": [
+                    "Team spirit award"
+                ]
+            },
+            {
+                "name": "Poly",
+                "play": "6-7-1",
+                "imageUrl": "/robots/2020.png",
+                "year": "2020",
+                "awards": [
+                    "EI award"
+                ]
+            },
+            {
+                "name": "Slippy",
+                "play": "58-27-0",
+                "imageUrl": "/robots/2019.png",
+                "year": "2019",
+                "awards": [
+                    "District Event Finalist",
+                    "Industrial Design Award sponsored by General Motors",
+                    "Autonomous Award sponsored by Ford",
+                    "Regional Finalists",
+                    "Entrepreneurship Award sponsored by Kleiner Perkins Caufield and Byers",
+                    "Autonomous Award sponsored by Ford",
+                    "Wildcard"
+                ]
+            },
+            {
+                "name": "Rocky",
+                "play": "56-22-0",
+                "imageUrl": "/robots/2018.png",
+                "year": "2018",
+                "awards": [
+                    "District Event Winner",
+                    "Entrepreneurship Award sponsored by Kleiner Perkins Caufield and Byers",
+                    "District Event Winner",
+                    "Judges’ Award",
+                    "Regional Winners",
+                    "Entrepreneurship Award sponsored by Kleiner Perkins Caufield and Byers"
+                ]
+            },
+            {
+                "name": "Bendy",
+                "play": "64-33-0",
+                "imageUrl": "/robots/2017.png",
+                "year": "2017",
+                "awards": [
+                    "District Chairman’s Award",
+                    "District Event Winner",
+                    "District Event Winner",
+                    "Gracious Professionalism Award sponsored by Johnson & Johnson",
+                    "Regional Finalists",
+                    "Quality Award sponsored by Motorola Solutions Foundation",
+                    "Quality Award sponsored by Motorola Solutions Foundation"
+                ]
+            },
+            {
+                "name": "Twitchy",
+                "play": "38-30-1",
+                "imageUrl": "/robots/2016.png",
+                "year": "2016",
+                "awards": [
+                    "District Engineering Inspiration Award",
+                    "Imagery Award in honor of Jack Kamen",
+                    "Gracious Professionalism Award sponsored by Johnson & Johnson"
+                ]
+            },
+            {
+                "name": "Sparky",
+                "play": "Check TBA",
+                "imageUrl": "/robots/2015.png",
+                "year": "2015",
+                "awards": [
+                    "District Chairman’s Award",
+                    "Innovation in Control Award sponsored by Rockwell Automation",
+                    "District Event Winner, District Championship Finalist"
+                ]
+            },
+            {
+                "name": "Ugly Betty",
+                "play": "46-39-0",
+                "imageUrl": "/robots/2014.png",
+                "year": "2014",
+                "awards": [
+                    "Team Spirit Award sponsored by Chrysler",
+                    "District Chairman’s Award",
+                    "Regional Chairman’s Award"
+                ]
+            },
+            {
+                "name": "Bernoulli",
+                "play": "52-26-1",
+                "imageUrl": "/robots/2013.png",
+                "year": "2013",
+                "awards": [
+                    "Excellence in Engineering award",
+                    "Quality Award",
+                    "Newton Championship Division Winners"
+                ]
+            },
+            {
+                "name": "2012",
+                "play": "21-18-0",
+                "imageUrl": "/robots/2012.png",
+                "year": "",
+                "awards": [
+                    "Imagery Award in honor of Jack Kamen"
+                ]
+            },
+            {
+                "name": "2011",
+                "play": "26-18-1",
+                "imageUrl": "/robots/2011.png",
+                "year": "",
+                "awards": [
+                    "New Jersey Regional Event Winner",
+                    "Gracious Professionalism Award sponsored by Johnson & Johnson",
+                    "Philadelphia Regional Winner"
+                ]
+            },
+            {
+                "name": "Soccerbot",
+                "play": "17-9-0",
+                "imageUrl": "/robots/2010.png",
+                "year": "2010",
+                "awards": [
+                    "Creativity Award sponsored by Xerox"
+                ]
+            },
+            {
+                "name": "2009",
+                "play": "8-11-2",
+                "imageUrl": "/robots/2009.png",
+                "year": "",
+                "awards": [
+                    "Autodesk Visualization Award"
+                ]
+            },
+            {
+                "name": "2008",
+                "play": "8-9-0",
+                "imageUrl": "/robots/2008.png",
+                "year": "",
+                "awards": [
+                    "Autodesk Vizualization Award",
+                    "Underwiters Laboratory Industrial Safety Award",
+                    "Beat Dean Kamen in a drag race"
+                ]
+            },
+            {
+                "name": "WingBot 2.0",
+                "play": "2-5-0",
+                "imageUrl": "/robots/2007.png",
+                "year": "2017",
+                "awards": []
+            },
+            {
+                "name": "2006",
+                "play": "10-11-1",
+                "imageUrl": "/robots/2006.png",
+                "year": "",
+                "awards": [
+                    "Underwriters Laboratories Industrial Safety Award"
+                ]
+            },
+            {
+                "name": "Dumpvalve",
+                "play": "9-7-0",
+                "imageUrl": "/robots/2005.png",
+                "year": "2005",
+                "awards": [
+                    "New Jersey Regional Event Finalist"
+                ]
+            },
+            {
+                "name": "The Fridge",
+                "play": "20-9-0",
+                "imageUrl": "/robots/2004.png",
+                "year": "2004",
+                "awards": [
+                    "New Jersey Regional Winner",
+                    "Xeroc Creativity Award",
+                    "Chesapeake Regional Event Finalist",
+                    "General Motors Industrial Design Award"
+                ]
+            },
+            {
+                "name": "WingBot",
+                "play": "16-12-0",
+                "imageUrl": "/robots/2003.png",
+                "year": "2003",
+                "awards": [
+                    "Motorola Quality Award",
+                    "GM Industrial Design Award"
+                ]
+            },
+            {
+                "name": "Clawbot",
+                "play": "5-8-1",
+                "imageUrl": "/robots/2002.png",
+                "year": "2002",
+                "awards": [
+                    "Galileo Division Finalist",
+                    "Johnson & Johnson Sportmanship Award"
+                ]
+            },
+            {
+                "name": "2001",
+                "play": "",
+                "imageUrl": "/robots/2001.png",
+                "year": "",
+                "awards": [
+                    "J&J Mid Atlantic Regional Finalist",
+                    "#1 Seed Award",
+                    "Delphi’s “Driving Tomorrow’s Technology."
+                ]
+            },
+            {
+                "name": "Schultz",
+                "play": "",
+                "imageUrl": "/robots/2000.png",
+                "year": "2000",
+                "awards": [
+                    "Featherweight in the Finals"
+                ]
+            },
+            {
+                "name": "1999",
+                "play": "",
+                "imageUrl": "/robots/1999.png",
+                "year": "",
+                "awards": [
+                    "Judge’s Award"
+                ]
+            }
+        ]
+    }
+}
