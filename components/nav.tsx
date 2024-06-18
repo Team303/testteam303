@@ -39,8 +39,7 @@ export default function Nav() {
                         <DropdownMenuContent className="w-56 bg-[#091314aa] text-[#7AB7B7] italic tracking-wide text-sm border-[#7AB7B7aa]">
                             <DropdownMenuRadioGroup value={position}>
                                 <DropdownMenuRadioItem value="iamvaild"><a className="" href="../outreach/iamvaild">#IamVaild</a></DropdownMenuRadioItem>
-                                <DropdownMenuRadioItem value="steamfair"><a className="" href="../outreach/steamfair">STEAM Fair</a></DropdownMenuRadioItem>
-                                <DropdownMenuRadioItem value="steamweek"><a className="" href="../outreach/steamweek">STEAM Week</a></DropdownMenuRadioItem>
+                                <DropdownMenuRadioItem value="steamfair"><a className="" href="../outreach/steam">STEAM</a></DropdownMenuRadioItem>
                             </DropdownMenuRadioGroup>
                         </DropdownMenuContent>
                     </DropdownMenu>

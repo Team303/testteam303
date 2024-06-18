@@ -8,7 +8,7 @@ const inter = Varela({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "The T.E.S.T. Team 303",
-  description: "FIRST robotics team 303, based in Bridgewater, New Jersy",
+  description: "FIRST robotics team 303, based in Bridgewater, New Jersey",
 };
 
 export default function RootLayout({
