@@ -77,7 +77,7 @@ export default function Nav() {
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="box rounded-full"
-            href="./contact"
+            href="../contact"
           >
             <Button
               className="bg-[#008080] px-6 py-3 text-[#091314] border-none hover:bg-[#7AB7B7]"
