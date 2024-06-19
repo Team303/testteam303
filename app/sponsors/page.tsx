@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import { sponsors } from "../../components/data/sponsors.json";
+import { motion } from "framer-motion";
 
-export default async function Home() {
+export default function Home() {
   const { platinum, gold, sliver, bronze } = sponsors;
 
   return (
@@ -32,6 +35,7 @@ export default async function Home() {
         </div>
 
         <Image src="/sponsors/txt1.svg" alt="" width={320} height={5} />
+
         <div className="flex justify-normal flex-wrap flex-col justify-center items-center sm:flex-row gap-10 bg-[#A5E7E740] items-center p-12 rounded-3xl w-4/5">
           {platinum.map((item, index) => (
             <a key={index} href={item.link}>
@@ -44,8 +48,33 @@ export default async function Home() {
             </a>
           ))}
         </div>
-        <Image src="/sponsors/txt2.svg" alt="" width={190} height={5} />
-        <div className="flex justify-normal flex-wrap flex-col justify-center items-center sm:flex-row gap-10 bg-[#A5E7E740] items-center p-12 rounded-3xl w-4/5">
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 0.8,
+            },
+          }}
+        >
+          <Image src="/sponsors/txt2.svg" alt="" width={190} height={5} />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 1.2,
+            },
+          }}
+          className="flex justify-normal flex-wrap flex-col justify-center items-center sm:flex-row gap-10 bg-[#A5E7E740] items-center p-12 rounded-3xl w-4/5"
+        >
           {gold.map((item, index) => (
             <a key={index} href={item.link}>
               <Image
@@ -56,9 +85,34 @@ export default async function Home() {
               />
             </a>
           ))}
-        </div>
-        <Image src="/sponsors/txt3.svg" alt="" width={250} height={5} />
-        <div className="flex justify-normal flex-wrap flex-col justify-center items-center sm:flex-row gap-10 bg-[#A5E7E740] items-center p-12 rounded-3xl w-4/5">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 0.8,
+            },
+          }}
+        >
+          <Image src="/sponsors/txt3.svg" alt="" width={250} height={5} />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 1.2,
+            },
+          }}
+          className="flex justify-normal flex-wrap flex-col justify-center items-center sm:flex-row gap-10 bg-[#A5E7E740] items-center p-12 rounded-3xl w-4/5"
+        >
           {sliver.map((item, index) => (
             <a key={index} href={item.link}>
               <Image
@@ -69,9 +123,34 @@ export default async function Home() {
               />
             </a>
           ))}
-        </div>
-        <Image src="/sponsors/txt4.svg" alt="" width={250} height={5} />
-        <div className="flex justify-normal flex-wrap flex-col justify-center items-center sm:flex-row gap-10 bg-[#A5E7E740] items-center p-12 rounded-3xl w-4/5">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 0.8,
+            },
+          }}
+        >
+          <Image src="/sponsors/txt4.svg" alt="" width={250} height={5} />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 1.2,
+            },
+          }}
+          className="flex justify-normal flex-wrap flex-col justify-center items-center sm:flex-row gap-10 bg-[#A5E7E740] items-center p-12 rounded-3xl w-4/5"
+        >
           {bronze.map((item, index) => (
             <a key={index} href={item.link}>
               <Image
@@ -82,7 +161,7 @@ export default async function Home() {
               />
             </a>
           ))}
-        </div>
+        </motion.div>
 
         <div>NUMBERS</div>
       </main>

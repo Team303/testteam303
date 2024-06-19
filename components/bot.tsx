@@ -12,7 +12,7 @@ import {
 
 export default function Bot() {
   return (
-    <main className="flex justify-between px-48 py-20 gap-20 items-center text-[#729AA9]">
+    <main className="flex flex-col lg:flex-row justify-between px-2 lg:px-48 text-xs lg:text-sm py-20 gap-20 items-center text-[#729AA9]">
       <motion.div
         initial={{ opacity: 0, y: 150 }}
         whileInView={{

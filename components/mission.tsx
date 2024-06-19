@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
     return (
-        <main className="flex justify-between px-48 py-20 gap-10 items-center text-[#729AA9]">
+        <main className="flex flex-col lg:flex-row justify-between px-2 text-xs lg:text-sm lg:px-48 py-20 gap-10 items-center text-[#729AA9]">
             <motion.div
                 initial={{ opacity: 0, y: 120, rotate: -10 }}
                 whileInView={{
