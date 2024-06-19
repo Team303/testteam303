@@ -6,7 +6,7 @@ export default async function Home() {
 
   return (
     <>
-      <main className="flex flex-col justify-center items-center text-center px-20 py-48 gap-10 bg-[url('/content/test2.svg')] bg-no-repeat bg-[#091314] text-[#729AA9]">
+      <main className="flex flex-col justify-center items-center text-center px-20 py-48 gap-10 bg-[url('/content/test2.svg')] bg-repeat-y bg-cover text-[#729AA9]">
         <Image
           src="/content/spon.svg"
           alt="sponsors"

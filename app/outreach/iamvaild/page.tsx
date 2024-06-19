@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default async function Home() {
   return (
-    <main className="bg-[url('/content/test2.svg')] bg-repeat-y bg-[#091314] text-center px-20 py-48 gap-10 text-[#7AB7B7]">
+    <main className="bg-[url('/content/test2.svg')] bg-repeat-y bg-cover text-center px-20 py-48 gap-10 text-[#7AB7B7]">
       <div className="flex justify-center items-center flex-col ">
         <Image
           src="/outreach/iamvaild.jpg"

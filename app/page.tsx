@@ -10,7 +10,7 @@ const varela = Varela({ weight: "400", subsets: ["latin"] });
 
 export default async function Home() {
   return (
-    <main className={`${varela.className} bg-[url('/content/test.svg')] bg-no-repeat bg-[#091314]`}>
+    <main className={`${varela.className} bg-[url('/content/test.svg')] bg-no-repeat bg-cover`}>
       <Hero />
       <Mission />
       <Bot />

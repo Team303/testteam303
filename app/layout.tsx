@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="/img/Testy.png" sizes="any" />
-      <body className={`bg-[#EEE] ${inter.className}`}>
+      <body className={`bg-[#091314] ${inter.className}`}>
         <Nav />
         {children}
         <Footer />

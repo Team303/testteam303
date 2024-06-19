@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default async function Home() {
   return (
-    <main className="bg-[url('/content/test1.svg')] bg-repeat-y bg-[#091314] px-20 py-48 gap-10 text-[#7AB7B7]">
+    <main className="bg-[url('/content/test1.svg')] bg-repeat-y bg-cover px-20 py-48 gap-10 text-[#7AB7B7]">
       <div className="flex flow-row items-center gap-10 m-12">
         <div className="w-1/2">
           <h1 className="text-3xl font-bold mx-12">4-H-Fair</h1>

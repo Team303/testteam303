@@ -3,7 +3,7 @@ import { IoLogoInstagram, IoLogoYoutube, IoLogoTwitter, IoLogoFlickr, IoLogoFace
 
 export default async function Home() {
     return (
-        <main className="flex flex-col justify-center items-center text-left px-20 py-48 gap-10 bg-[#EEE]">
+        <main className="flex flex-col justify-center items-center text-left px-20 py-48 gap-10">
             <Image src="/content/contact.svg" alt="contact us" width={400} height={5} />
             <br /><br /><br />
             <div className="flex justify-between gap-72 px-24">
