@@ -18,7 +18,7 @@ import Media from "@/components/media";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center text-left px-20 py-48 gap-10">
+    <main className="bg-[url('/content/test2.svg')] bg-repeat-y bg-cover flex flex-col justify-center items-center text-left px-20 py-48 gap-10">
       <Image
         src="/content/contact.svg"
         alt="contact us"

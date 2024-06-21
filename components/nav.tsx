@@ -37,15 +37,30 @@ export default function Nav() {
           <Image src="/303.png" alt="logo" width={120} height={80} />
         </div>
         <div className="flex space-x-16 items-center">
-          <a className="" href="../">
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className=""
+            href="../"
+          >
             Home
-          </a>
-          <a className="" href="../story">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className=""
+            href="../story"
+          >
             Story
-          </a>
-          <a className="" href="../sponsors">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className=""
+            href="../sponsors"
+          >
             Sponsors
-          </a>
+          </motion.a>
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -53,7 +68,13 @@ export default function Nav() {
                 variant="default"
                 className="outline-none focus:outline-none bg-[#FFFFFFF] border-none hover:bg-[#FFFFFFF] hover:border:none hover:text-[#7AB7B7] text-[#7AB7B7] italic tracking-wide text-sm"
               >
-                Outreach
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  className=""
+                >
+                  Outreach
+                </motion.div>
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56 bg-[#091314aa] text-[#7AB7B7] italic tracking-wide text-sm border-[#7AB7B7aa]">
@@ -61,6 +82,11 @@ export default function Nav() {
                 <a className="" href="../outreach/iamvaild">
                   <DropdownMenuRadioItem value="iamvaild">
                     #IamVaild
+                  </DropdownMenuRadioItem>
+                </a>
+                <a className="" href="../outreach/fll&ftc">
+                  <DropdownMenuRadioItem value="fll&ftc">
+                    FTC & FLL
                   </DropdownMenuRadioItem>
                 </a>
                 <a className="" href="../outreach/steam">

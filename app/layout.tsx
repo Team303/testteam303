@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Varela } from "next/font/google";
+import { Inter, Varela, Rubik } from "next/font/google";
 import "./globals.css";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 
-const inter = Varela({ subsets: ["latin"], weight: "400" });
+const inter = Rubik({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "The T.E.S.T. Team 303",
