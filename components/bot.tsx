@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import Image from "next/image"
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 import {
@@ -8,7 +8,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from "@/components/ui/accordion";
 
 export default function Bot() {
   return (
@@ -16,67 +16,101 @@ export default function Bot() {
       <motion.div
         initial={{ opacity: 0, y: 150 }}
         whileInView={{
-          opacity: 1, y: 0, transition: {
+          opacity: 1,
+          y: 0,
+          transition: {
             type: "spring",
             bounce: 0.4,
-            duration: 1.2
-          }
+            duration: 1.2,
+          },
         }}
-        className="w-1/2 text-sm py-12">
+        className="w-1/2 text-sm py-12"
+      >
         <Image src="/dark/2024-dark.svg" alt="image" width={500} height={100} />
-        <motion.p initial={{ opacity: 0, y: 120 }}
+        <motion.p
+          initial={{ opacity: 0, y: 120 }}
           whileInView={{
-            opacity: 1, y: 0, transition: {
+            opacity: 1,
+            y: 0,
+            transition: {
               type: "spring",
               bounce: 0.4,
-              duration: 1
-            }
-          }} className="pb-6 pt-4">Check out our 2024 robot the for the FIRST robotics competition, Crescendo<br /></motion.p>
+              duration: 1,
+            },
+          }}
+          className="pb-6 pt-4"
+        >
+          Check out our 2024 robot the for the FIRST robotics competition,
+          Crescendo
+          <br />
+        </motion.p>
 
         <Accordion type="single" collapsible className="w-full">
-          <motion.div initial={{ opacity: 0, y: 120 }}
+          <motion.div
+            initial={{ opacity: 0, y: 120 }}
             whileInView={{
-              opacity: 1, y: 0, transition: {
+              opacity: 1,
+              y: 0,
+              transition: {
                 type: "spring",
                 bounce: 0.4,
-                duration: 1
-              }
-            }}>
+                duration: 1,
+              },
+            }}
+          >
             <AccordionItem value="item-1">
-              <AccordionTrigger className="text-lg font-bold pt-4 pb-1 border-[#729AA9]">Hatboro-Horsham</AccordionTrigger>
+              <AccordionTrigger className="text-lg font-bold pt-4 pb-1 border-[#729AA9]">
+                Hatboro-Horsham
+              </AccordionTrigger>
               <AccordionContent>
-                The team faced many wiring and inspection issues resulting in several issues the pit crew desperately fixed, and the team still managed to secure 3rd pick from alliance 4.
+                The team faced many wiring and inspection issues resulting in
+                several issues the pit crew desperately fixed, and the team
+                still managed to secure 3rd pick from alliance 4.
               </AccordionContent>
             </AccordionItem>
           </motion.div>
-          <motion.div initial={{ opacity: 0, y: 120 }}
+          <motion.div
+            initial={{ opacity: 0, y: 120 }}
             whileInView={{
-              opacity: 1, y: 0, transition: {
+              opacity: 1,
+              y: 0,
+              transition: {
                 type: "spring",
                 bounce: 0.4,
-                duration: 1
-              }
-            }}>
+                duration: 1,
+              },
+            }}
+          >
             <AccordionItem value="item-2">
-              <AccordionTrigger className="text-lg font-bold pt-4 pb-1">Warren Hills</AccordionTrigger>
+              <AccordionTrigger className="text-lg font-bold pt-4 pb-1">
+                Warren Hills
+              </AccordionTrigger>
               <AccordionContent>
-                The team came back with a revised robot for their week 4 event, which did exceptionally well during the first couple games,however misfortune led to some mechanical failures later into the event. The team proudly accept EI award, and are now going to Lehigh, to participate in the Mid-Atlantic District Championships
+                The team came back with a revised robot for their week 4 event,
+                which did exceptionally well during the first couple
+                games,however misfortune led to some mechanical failures later
+                into the event. The team proudly accept EI award, and are now
+                going to Lehigh, to participate in the Mid-Atlantic District
+                Championships
               </AccordionContent>
             </AccordionItem>
           </motion.div>
         </Accordion>
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, y: 120, }}
+        initial={{ opacity: 0, y: 120 }}
         whileInView={{
-          opacity: 1, y: 0, transition: {
+          opacity: 1,
+          y: 0,
+          transition: {
             type: "spring",
             bounce: 0.4,
-            duration: 1
-          }
-        }} className="w-3/5">
+            duration: 1,
+          },
+        }}
+        className="w-3/5"
+      >
         <Image src="/dark/2024bot-dark.png" alt="txt" width={1000} height={0} />
-
       </motion.div>
     </main>
   );

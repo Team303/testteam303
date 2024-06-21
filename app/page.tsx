@@ -1,4 +1,3 @@
-
 import Hero from "../components/hero";
 import Mission from "../components/mission";
 import Bot from "../components/bot";
@@ -8,10 +7,11 @@ import { Varela, Roboto } from "next/font/google";
 
 const varela = Varela({ weight: "400", subsets: ["latin"] });
 
-
 export default function Home() {
   return (
-    <main className={`${varela.className} bg-[url('/content/test.svg')] bg-no-repeat bg-cover`}>
+    <main
+      className={`${varela.className} bg-[url('/content/test.svg')] bg-no-repeat bg-cover`}
+    >
       <Hero />
       <Mission />
       <Bot />

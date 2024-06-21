@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function Bento() {
-    return (
+  return (
     <>
       <div className="relative z-10 grid gap-3 grid-cols-12 grid-rows-4 text-left">
         <motion.div
@@ -46,12 +46,12 @@ export default function Bento() {
             scale: 1.02,
             transition: { duration: 0.1 },
           }}
-          className="col-span-full row-span-2 lg:col-span-3 overflow-hidden relative p-8 rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
+          className="col-span-full row-span-2 lg:col-span-3 overflow-hidden relative object-cover rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
         >
           <Image
             src="/outreach/ftc&fll1.png"
             alt="img"
-            className="w-84"
+            className="h-full w-full object-cover"
             width={200}
             height={"100"}
           />
@@ -62,12 +62,12 @@ export default function Bento() {
             scale: 1.02,
             transition: { duration: 0.1 },
           }}
-          className="col-span-full row-span-2 lg:col-span-4 overflow-hidden relative p-8 rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
+          className="col-span-full row-span-2 lg:col-span-4 overflow-hidden relative rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
         >
           <Image
             src="/outreach/ftc&fll2.png"
             alt="img"
-            className="w-84"
+            className="h-full w-full object-cover"
             width={200}
             height={"100"}
           />
@@ -78,12 +78,12 @@ export default function Bento() {
             scale: 1.02,
             transition: { duration: 0.1 },
           }}
-          className="col-span-full row-span-2 lg:col-span-4 overflow-hidden relative p-8 rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
+          className="col-span-full row-span-2 lg:col-span-4 overflow-hidden relative rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
         >
           <Image
             src="/outreach/ftc&fll3.png"
             alt="img"
-            className="w-84"
+            className="h-full w-full object-cover"
             width={200}
             height={"100"}
           />
@@ -94,12 +94,12 @@ export default function Bento() {
             scale: 1.02,
             transition: { duration: 0.1 },
           }}
-          className="col-span-full row-span-2 lg:col-span-3 overflow-hidden relative p-8 rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
+          className="col-span-full row-span-2 lg:col-span-3 overflow-hidden relative rounded-xl bg-[#FFFFFF12] border-2 border-[#FFFFFF15]"
         >
           <Image
             src="/outreach/ftc&fll4.png"
             alt="img"
-            className="w-84"
+            className="h-full w-full object-cover"
             width={200}
             height={"100"}
           />
@@ -158,5 +158,5 @@ export default function Bento() {
         </motion.div>
       </div>
     </>
-  )
+  );
 }

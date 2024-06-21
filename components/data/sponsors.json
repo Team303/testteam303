@@ -1,60 +1,60 @@
 {
-    "sponsors": {
-        "platinum": [
-            {
-                "image": "brrsd.png",
-                "link": "https://www.brrsd.org/"
-            },
-            {
-                "image": "ramp-logo.png",
-                "link": "https://www.rampteam303.com/"
-            },
-            {
-                "image": "j&j.png",
-                "link": "https://www.jnj.com/"
-            },
-            {
-                "image": "rvcc.png",
-                "link": "https://www.raritanval.edu/"
-            }
-        ],
-        "gold": [
-            {
-                "image": "bell-labs.png",
-                "link": "https://www.bell-labs.com/"
-            }
-        ],
-        "sliver": [
-            {
-                "image": "bank.png",
-                "link": "https://www.bankofamerica.com/"
-            },
-            {
-                "image": "lightburn.png",
-                "link": "https://lightburnsoftware.com/"
-            },
-            {
-                "image": "mastercam.png",
-                "link": "https://www.mastercam.com/"
-            },
-            {
-                "image": "triadtool.png",
-                "link": "https://www.triadtool.com/"
-            }
-        ],
-        "bronze": [
-            {
-                "image": "soildworks.png",
-                "link": "https://www.solidworks.com/"
-            },
-            {
-                "image": "iCode-Logo.png",
-                "link": "https://icodeschool.com/"
-            },
-            {
-                "image": "NY-mellon.png",
-                "link": "https://www.bnymellon.com/"
-            }
-        ]
-    }
+  "sponsors": {
+    "platinum": [
+      {
+        "image": "brrsd.png",
+        "link": "https://www.brrsd.org/"
+      },
+      {
+        "image": "ramp-logo.png",
+        "link": "https://www.rampteam303.com/"
+      },
+      {
+        "image": "j&j.png",
+        "link": "https://www.jnj.com/"
+      },
+      {
+        "image": "rvcc.png",
+        "link": "https://www.raritanval.edu/"
+      }
+    ],
+    "gold": [
+      {
+        "image": "bell-labs.png",
+        "link": "https://www.bell-labs.com/"
+      }
+    ],
+    "sliver": [
+      {
+        "image": "bank.png",
+        "link": "https://www.bankofamerica.com/"
+      },
+      {
+        "image": "lightburn.png",
+        "link": "https://lightburnsoftware.com/"
+      },
+      {
+        "image": "mastercam.png",
+        "link": "https://www.mastercam.com/"
+      },
+      {
+        "image": "triadtool.png",
+        "link": "https://www.triadtool.com/"
+      }
+    ],
+    "bronze": [
+      {
+        "image": "soildworks.png",
+        "link": "https://www.solidworks.com/"
+      },
+      {
+        "image": "iCode-Logo.png",
+        "link": "https://icodeschool.com/"
+      },
+      {
+        "image": "NY-mellon.png",
+        "link": "https://www.bnymellon.com/"
+      }
+    ]
+  }
 }

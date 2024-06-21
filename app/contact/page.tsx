@@ -28,7 +28,6 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center my-12 gap-12">
         <Clip />
         <Media />
-        
       </div>
       <Toaster />
     </main>
