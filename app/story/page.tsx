@@ -1,7 +1,46 @@
 import Image from "next/image";
 import { BotCarousel, StoryCarousel } from "../../components/bots";
 
+import { useState } from 'react';
+
+// type TeamInfo = {
+//     key: string;
+//     team_number: number;
+//     nickname: string;
+// };
+
+// type EventInfo = {
+//     key: string;
+//     name: string;
+// };
+
+// type MatchInfo = {
+//     key: string;
+//     comp_level: string;
+// };
+
 export default async function Home() {
+
+  // const [endpoint, setEndpoint] = useState('team');
+  // const [key, setKey] = useState('');
+  // const [data, setData] = useState<TeamInfo | EventInfo | MatchInfo | null>(null);
+  // const [error, setError] = useState<string | null>(null);
+
+  // const fetchData = async () => {
+  //     try {
+  //         const response = await fetch(`/api/bluealliance?endpoint=${endpoint}&${endpoint === 'team' ? 'teamKey' : 'eventKey'}=${key}`);
+  //         if (!response.ok) {
+  //             throw new Error('Failed to fetch data');
+  //         }
+  //         const data = await response.json();
+  //         setData(data);
+  //         setError(null);
+  //     } catch (err) {
+  //         setError(err.message);
+  //         setData(null);
+  //     }
+  // };
+
   return (
     <main className="flex justify-center flex-col text-center justify-center items-center px-20 py-40 bg-[url('/content/test2.svg')] bg-repeat-y bg-cover text-[#6A8FB1] text-xs lg:text-sm">
       <Image src="/content/about.svg" width={300} height={5} alt="about" />
