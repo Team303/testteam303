@@ -11,11 +11,20 @@ export default async function Home() {
         becoming a sponsor for Team 303, please feel free to contact us.{" "}
       </p>
       <div className="flex flex-row justify-center items-center font-bold gap-10 px-12 py-6">
-        <a href="../sponsors" className="text-[#555]">
+        <a
+          href="../sponsors"
+          className=" text-[#729AA9AA]"
+        >
           Sponsors
         </a>
-        <a href="#" className="border-b-2 border-[#008080]">
+        <a
+          href="../sponsors/ramp"
+          className="border-b-2 border-[#008080] text-[#7AB7B7]"
+        >
           Ramp & Mentors
+        </a>
+        <a href="../sponsors/benifits" className="text-[#729AA9AA]">
+          Sponsor Benifits
         </a>
       </div>
       <Image

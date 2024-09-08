@@ -5,14 +5,17 @@ import React, { useEffect, useState } from "react";
 
 const items = [
   {
+    img: "/outreach/a.jpg",
+  },
+  {
+    img: "/outreach/b.jpg",
+  },
+  {
+    img: "/outreach/ftc&fll2.jpg",
+  },
+  {
     img: "/outreach/steam.png",
-  },
-  {
-    img: "/outreach/ftc&fll2.png",
-  },
-  {
-    img: "/outreach/ftc&fll1.png",
-  },
+  }
 ];
 
 export const MovingImgs = ({
@@ -92,14 +95,14 @@ export const MovingImgs = ({
         )}
       >
         {items.map((item, idx) => (
-          <blockquote key={idx}>
+          <blockquote key={idx} className="max-h-44 rounded-sm opacity-50">
             <div
               aria-hidden="true"
-              className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+              className="user-select-none -z-1  pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
             ></div>
             <div className="relative z-20 mt-6 flex flex-row items-center \">
               <span className="flex flex-col gap-1">
-                <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
+                <span className=" text-sm leading-[1.6] text-gray-400 font-normal max-h-">
                   <Image src={item.img} alt="img" width={200} height={5} className="h-full w-full object-cover"/>
                 </span>
               </span>
