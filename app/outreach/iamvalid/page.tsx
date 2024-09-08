@@ -11,7 +11,7 @@ export default async function Home() {
           height={100}
           className="m-12 rounded-full border-[#7AB7B7aa] border-8"
         />
-        <h1 className="text-3xl font-bold">#IamVaild</h1>
+        <h1 className="text-3xl font-bold">#IamValid</h1>
         <p className="italic text-sm m-12">
           “Everything is valid, except for bullying, invalidity, and pineapple
           pizza.” – Charlie Schulz
@@ -48,9 +48,9 @@ export default async function Home() {
         </p>
         <hr className="border-[#7AB7B74a] border w-4/5" />
 
-        <h1 className="text-4xl font-bold m-12">Color Run</h1>
+        <h1 className="text-4xl font-bold m-12">Rainbow Run</h1>
         <p className="w-3/4 text-sm">
-          The Charlie run is a annual color run hosted by 303 honor of Charlie,
+          The Charlie run is an annual Rainbow Run hosted by 303 honor of Charlie,
           a late team member who unfortunately lost his battle with mental
           health. Along with the run, LGBTQIA+ speakers come to speak about
           their experiences in STEAM to encourage LGBTQIA+ members to pursue

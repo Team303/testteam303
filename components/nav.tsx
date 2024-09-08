@@ -80,8 +80,8 @@ export default function Nav() {
             <DropdownMenuContent className="w-56 bg-[#091314aa] text-[#7AB7B7] italic tracking-wide text-sm border-[#7AB7B7aa]">
               <DropdownMenuRadioGroup value={position}>
                 <a className="" href="../outreach/iamvaild">
-                  <DropdownMenuRadioItem value="iamvaild">
-                    #IamVaild
+                  <DropdownMenuRadioItem value="iamvalid">
+                    #IamValid
                   </DropdownMenuRadioItem>
                 </a>
                 <a className="" href="../outreach/fll&ftc">

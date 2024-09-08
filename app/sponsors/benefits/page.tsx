@@ -39,10 +39,10 @@ export default async function Home() {
           Ramp & Mentors
         </a>
         <a
-          href="../sponsors/benifits"
+          href="../sponsors/benefits"
           className="border-b-2 border-[#008080] text-[#7AB7B7]"
         >
-          Sponsor Benifits
+          Sponsor Benefits 
         </a>
       </div>
 
