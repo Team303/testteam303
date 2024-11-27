@@ -40,6 +40,26 @@
       {
         "image": "triadtool.png",
         "link": "https://www.triadtool.com/"
+      },
+      {
+        "image": "intuitive.png",
+        "link": "https://www.intuitive-foundation.org"
+      },
+      {
+        "image": "picatinny.png",
+        "link": "https://home.army.mil/picatinny/index.php"
+      },
+      {
+        "image": "optimum.png",
+        "link": "https://optimum.com"
+      },
+      {
+        "image": "te-connectivity.png",
+        "link": "te.com"
+      },
+      {
+        "image": "first.png",
+        "link": "firstinspires.org"
       }
     ],
     "bronze": [
@@ -48,8 +68,8 @@
         "link": "https://www.solidworks.com/"
       },
       {
-        "image": "iCode-Logo.png",
-        "link": "https://icodeschool.com/"
+        "image": "daiichi-sankyo.png",
+        "link": "https://daiichisankyo.com/"
       },
       {
         "image": "NY-mellon.png",
